@@ -6,7 +6,7 @@ import { idosos } from "../data/idosos";
 const whatsappResponsavel = "5511993023322";
 
 function linkAdocao(nome: string) {
-  const mensagem = `Olá! Vi a campanha Adote um Idoso neste Natal e gostaria de adotar ${nome}. Poderia confirmar se ainda está disponível e me orientar sobre a entrega do presente?`;
+  const mensagem = `Olá! Vi a campanha apadrinhe um Idoso neste Natal e gostaria de apadrinhar ${nome}. Poderia confirmar se ainda está disponível e me orientar sobre a entrega do presente?`;
   return whatsappResponsavel
     ? `https://wa.me/${whatsappResponsavel}?text=${encodeURIComponent(mensagem)}`
     : null;
@@ -24,7 +24,7 @@ export default function Home() {
           🎄 UMA CAMPANHA DE CARINHO E SOLIDARIEDADE 🎄
         </div>
         <h1>
-          Adote um Idoso <span>neste Natal</span>
+          Apadrinhe um Idoso <span>neste Natal</span>
         </h1>
         <p>
           Neste Natal, você pode fazer a diferença na vida de um dos nossos
@@ -109,7 +109,7 @@ export default function Home() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Quero adotar ♥
+                      Quero apadrinhar ♥
                     </a>
                   ) : (
                     <div className="disabled-action">

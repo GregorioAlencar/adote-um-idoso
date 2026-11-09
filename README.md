@@ -1,4 +1,4 @@
-# Adote um Idoso neste Natal 🎄
+# Apadrinhe um Idoso neste Natal 🎄
 
 Landing page simples para a campanha de Natal 2026, baseada na arte recebida.
 
