@@ -69,11 +69,6 @@ export default function Home() {
                     sizes="(max-width: 600px) 100vw, (max-width: 1000px) 50vw, 33vw"
                     style={{ objectFit: "cover" }}
                   />
-                  <span
-                    className={`status ${idoso.adotado ? "taken" : "available"}`}
-                  >
-                    {idoso.adotado ? "♥ Já adotado" : "♥ Disponível"}
-                  </span>
                 </div>
                 <div className="person-body">
                   <h3>{idoso.nome}</h3>

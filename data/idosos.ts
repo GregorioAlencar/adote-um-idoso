@@ -87,7 +87,7 @@ export const idosos: Idoso[] = [
     id: "tereza",
     nome: "Tereza",
     foto: "/idosos/tereza.png",
-    precisa: ["Uma Crocs tamanho 30, cor escura"],
+    precisa: ["Uma Crocs tamanho 38, cor escura"],
     gostaria: ["Uma blusa de malha com botão, tamanho M"],
     adotado: false,
   },
