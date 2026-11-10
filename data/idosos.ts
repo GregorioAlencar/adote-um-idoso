@@ -16,7 +16,7 @@ export const idosos: Idoso[] = [
     foto: "/idosos/antonio.jpeg",
     precisa: ["Blusa de frio GG aberta"],
     gostaria: ["Uma carteira"],
-    adotado: false,
+    adotado: true,
   },
   {
     id: "sebastiao",
@@ -28,16 +28,16 @@ export const idosos: Idoso[] = [
     adotado: false,
   },
   {
-    id: "ana-maria",
-    nome: "Ana Maria",
+    id: "eliana",
+    nome: "Eliana",
     foto: "/idosos/eliana.jpeg",
     precisa: ["Hidratante e desodorante"],
     gostaria: ["Vestido comprido, de manga curta e vermelho"],
-    adotado: false,
+    adotado: true,
   },
   {
-    id: "eliana",
-    nome: "Eliana",
+    id: "ana-maria",
+    nome: "Ana Maria",
     foto: "/idosos/ana-maria.jpeg",
     precisa: ["Hidratante e desodorante"],
     gostaria: ["Uma boneca com cabelo"],
@@ -64,7 +64,7 @@ export const idosos: Idoso[] = [
     precisa: ["Hidratante e desodorante"],
     gostaria: ["Uma boneca com cabelo"],
     observacao: "Desodorante não pode ser roll-on.",
-    adotado: false,
+    adotado: true,
   },
   {
     id: "luiza",
@@ -97,7 +97,7 @@ export const idosos: Idoso[] = [
     foto: "/idosos/francisca.png",
     precisa: ["Hidratante e desodorante"],
     gostaria: ["Chocolate e Bob Goods"],
-    adotado: false,
+    adotado: true,
   },
   {
     id: "guiomar",
@@ -113,7 +113,7 @@ export const idosos: Idoso[] = [
     foto: "/idosos/helio.png",
     precisa: ["Hidratante e desodorante"],
     gostaria: ["Um relógio"],
-    adotado: false,
+    adotado: true,
   },
   {
     id: "genildo",
@@ -121,15 +121,15 @@ export const idosos: Idoso[] = [
     foto: "/idosos/genildo.png",
     precisa: ["Hidratante e desodorante"],
     gostaria: ["Um relógio"],
-    adotado: false,
+    adotado: true,
   },
   {
-    id: "antonio-garcia",
-    nome: "Antônio Garcia",
+    id: "joao-garcia",
+    nome: "João Garcia",
     foto: "/idosos/antonio-garcia.png",
     precisa: ["Hidratante e desodorante"],
     gostaria: ["Chocolate branco"],
-    adotado: false,
+    adotado: true,
   },
   {
     id: "edimir",
@@ -137,7 +137,7 @@ export const idosos: Idoso[] = [
     foto: "/idosos/edimir.png",
     precisa: ["Hidratante e desodorante"],
     gostaria: ["Um tênis preto, número 43"],
-    adotado: false,
+    adotado: true,
   },
   {
     id: "antonio-pina",
@@ -145,7 +145,7 @@ export const idosos: Idoso[] = [
     foto: "/idosos/antonio-pina.png",
     precisa: [],
     gostaria: ["Um tênis número 41, sem cadarço"],
-    adotado: false,
+    adotado: true,
   },
   {
     id: "dulce",
@@ -161,7 +161,7 @@ export const idosos: Idoso[] = [
     foto: "/idosos/joao-da-conceicao.png",
     precisa: [],
     gostaria: ["Pão de mel e um panetone de frutas"],
-    adotado: false,
+    adotado: true,
   },
   {
     id: "analia",
@@ -169,7 +169,7 @@ export const idosos: Idoso[] = [
     foto: "/idosos/analia.png",
     precisa: ["Hidratante e desodorante"],
     gostaria: ["Uma blusa de frio com bolso"],
-    adotado: false,
+    adotado: true,
   },
   {
     id: "geralda",
@@ -177,7 +177,7 @@ export const idosos: Idoso[] = [
     foto: "/idosos/geralda.png",
     precisa: ["Hidratante e desodorante"],
     gostaria: ["Um vestido comprido azul claro"],
-    adotado: false,
+    adotado: true,
   },
   {
     id: "nailza",
@@ -201,7 +201,7 @@ export const idosos: Idoso[] = [
     foto: "/idosos/leila.png",
     precisa: ["Hidratante e desodorante"],
     gostaria: ["Uma caixa de chocolate"],
-    adotado: false,
+    adotado: true,
   },
   {
     id: "jair",
@@ -209,7 +209,7 @@ export const idosos: Idoso[] = [
     foto: "/idosos/jair.png",
     precisa: ["Hidratante e desodorante"],
     gostaria: ["Uma bolsa bag preta e um isqueiro"],
-    adotado: false,
+    adotado: true,
   },
   {
     id: "helena",
@@ -217,7 +217,7 @@ export const idosos: Idoso[] = [
     foto: "/idosos/helena.png",
     precisa: ["Hidratante e desodorante"],
     gostaria: ["Uma blusa de frio aberta, com bolso"],
-    adotado: false,
+    adotado: true,
   },
   {
     id: "jose-roberto",
@@ -225,6 +225,23 @@ export const idosos: Idoso[] = [
     foto: "/idosos/jose-roberto.png",
     precisa: ["Hidratante e desodorante"],
     gostaria: ["Um chinelo 42, preto"],
+    adotado: true,
+  },
+  {
+    id: "florinda",
+    nome: "Florinda",
+    foto: "/idosos/florinda.jpeg",
+    precisa: ["Hidratante e desodorante"],
+    gostaria: ["Uma blusa de frio rosa e meia"],
+    adotado: false,
+  },
+  {
+    id: "sandra",
+    nome: "Sandra",
+    foto: "/idosos/sandra.jpeg",
+    precisa: [],
+    gostaria: ["Um turbante ou um vestido tamanho GG"],
+    observacao: "Não gosta de cores escuras. Prefere vermelho.",
     adotado: false,
   },
 ];
