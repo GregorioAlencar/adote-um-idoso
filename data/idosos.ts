@@ -81,7 +81,7 @@ export const idosos: Idoso[] = [
     foto: "/idosos/adhemar.png",
     precisa: ["Hidratante e desodorante"],
     gostaria: ["Uma calça de elástico azul"],
-    adotado: false,
+    adotado: true,
   },
   {
     id: "tereza",
