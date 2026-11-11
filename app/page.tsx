@@ -1,4 +1,5 @@
 import Image from "next/image";
+import BackToTop from "./components/BackToTop";
 import { idosos } from "../data/idosos";
 
 // Coloque o número da responsável no formato 55 + DDD + número, sem símbolos.
@@ -134,6 +135,7 @@ export default function Home() {
         Feito com ❤️ para o Natal de 2026 · Confirme a disponibilidade e os
         detalhes de entrega com a organização.
       </footer>
+      <BackToTop />
     </main>
   );
 }
