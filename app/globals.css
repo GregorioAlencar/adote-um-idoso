@@ -326,3 +326,43 @@ footer {
     font-size: 25px;
   }
 }
+
+/* Botão flutuante para retornar ao topo */
+.back-to-top {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  padding: 0;
+  border: 2px solid #e6b95e;
+  border-radius: 50%;
+  background: #b21b25;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 6px 18px #8c151633;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.back-to-top:hover {
+  background: #8d151d;
+  transform: translateY(-3px);
+}
+
+.back-to-top:focus-visible {
+  outline: 3px solid #22683d;
+  outline-offset: 3px;
+}
+
+@media (max-width: 580px) {
+  .back-to-top {
+    right: 16px;
+    bottom: 16px;
+    width: 46px;
+    height: 46px;
+  }
+}

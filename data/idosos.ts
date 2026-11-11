@@ -25,7 +25,7 @@ export const idosos: Idoso[] = [
     precisa: ["Creme hidratante e desodorante"],
     gostaria: ["Um ursinho ou chocolate"],
     observacao: "Desodorante não pode ser roll-on.",
-    adotado: false,
+    adotado: true,
   },
   {
     id: "eliana",
