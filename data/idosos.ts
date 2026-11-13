@@ -41,7 +41,7 @@ export const idosos: Idoso[] = [
     foto: "/idosos/ana-maria.jpeg",
     precisa: ["Hidratante e desodorante"],
     gostaria: ["Uma boneca com cabelo"],
-    adotado: false,
+    adotado: true,
   },
   {
     id: "ivete",
@@ -54,7 +54,7 @@ export const idosos: Idoso[] = [
       "Pulseiras e colares",
     ],
     observacao: "Ivete não gosta de cores escuras.",
-    adotado: false,
+    adotado: true,
   },
 
   {
